@@ -1,0 +1,46 @@
+body
+{
+  font-family: sans-serif;
+}
+
+.pill
+{
+  border: 1px solid;
+  border-radius: 999px;
+  display: inline-block;
+  padding: 3px 7px;
+}
+
+.pill-delete
+{
+  background-color: black;
+  border-radius: 999px;
+  color: white;
+  padding: 2px 8px;
+}
+
+.pill-shown
+{
+  display: inline-block;
+}
+
+.pill-hidden
+{
+  display: none;
+}
+
+.pill:hover
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.pill:hover .pill-shown
+{
+  display: none;
+}
+
+.pill:hover .pill-hidden
+{
+  display: inline-block;
+}
